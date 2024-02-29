@@ -57,15 +57,7 @@ header {
 .buy-now-btn:hover {
     background-color: #0056b3;
 }
-.scroll {
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-}
 
-.scroll svg {
-    height: 150px;
-}
 
 /* CSS for mobile */
 @media (max-width: 768px) {
@@ -77,6 +69,15 @@ header {
         border-radius: 5px;
         text-align: center;
     }
+}
+.scroll {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.scroll svg {
+    height: 150px;
 }
 
 /* CSS for small screens (e.g., phones) */

@@ -70,15 +70,8 @@ header {
         text-align: center;
     }
 }
-.scroll {
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-}
 
-.scroll svg {
-    height: 150px;
-}
+
 
 /* CSS for small screens (e.g., phones) */
 @media (max-width: 576px) {

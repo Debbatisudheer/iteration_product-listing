@@ -246,6 +246,48 @@
             </div>
         </div>
     </div>
+    <div class="iteration-notes">
+        <h2>Iteration Notes</h2>
+        <ul>
+            <li>Iteration is used to loop through the list of Product objects named emojis and display information about each product.</li>
+            <li>The role of iteration here is to go through each Product object in the emojis list and display its name, emoji, and price. This allows us to easily view all the products along with their respective information.</li>
+            <li>
+                One strict point regarding iteration is:
+                <ul>
+                    <li>Avoid modifying the structure of a data structure while iterating over it:
+                        <ul>
+                            <li>Modifying a data structure (e.g., adding or removing elements) while iterating over it can lead to unexpected behavior, such as skipping elements or infinite loops.</li>
+                            <li>Instead, iterate over a copy of the data structure or use techniques like list comprehensions to create a new data structure with the desired modifications.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+ <div class="iteration-notes">
+        <h2>Iteration Notes</h2>
+        <p>
+            Time Complexity:
+            <ul>
+                <li>The time complexity of an iteration depends on the data structure being iterated over and the operations performed within the iteration.</li>
+                <li>For most iterable data structures like lists, tuples, sets, and dictionaries, the time complexity of a single iteration is typically O(n), where n is the number of elements in the data structure.</li>
+                <li>The actual time complexity may vary based on the specific operations performed within the loop, such as nested loops or expensive operations.</li>
+                <li>In cases involving nested data structures or complex operations, the time complexity may be higher than O(n).</li>
+            </ul>
+        </p>
+        <p>
+            Space Complexity:
+            <ul>
+                <li>The space complexity of an iteration refers to the additional memory required during the iteration process.</li>
+                <li>For most basic iterations, the space complexity is O(1), indicating constant extra memory usage regardless of the size of the data structure.</li>
+                <li>If additional data structures are created or modified within the iteration, the space complexity may increase accordingly.</li>
+                <li>In cases involving recursion or nested data structures, the space complexity may be higher than O(1) due to the recursive call stack or additional memory allocations.</li>
+            </ul>
+        </p>
+        <p>
+            In summary, the time complexity of iteration is typically O(n), where n is the number of elements in the data structure being iterated over. The space complexity is usually O(1), indicating constant extra memory usage. However, these complexities may vary based on the specific operations and data structures involved in the iteration.
+        </p>
+    </div>
 </body>
 </html>
 
